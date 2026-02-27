@@ -1,3 +1,5 @@
+export EDITOR='nvim'
+
 ### What the hell is this... whatever.
 # Autoload zsh's `add-zsh-hook` and `vcs_info` functions
 # (-U autoload w/o substition, -z use zsh style)
