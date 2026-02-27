@@ -18,9 +18,12 @@ opt.undofile = true                                -- Enable persistent undo
 opt.completeopt = { "fuzzy", "menuone", "popup" }
 opt.wrap = false                                   -- Disable line wrapping
 opt.timeout = false                                -- Allow commands to be typed over any amount of time
+opt.splitright = true                              -- Open new horizontal splits to the right
+opt.splitbelow = true                              -- Open new vertical splits below
 
 vim.g.loaded_netrw = 1                             -- disable netrw, we have fzf-ff
 vim.g.loaded_netrwPlugin = 1                       -- see above
 
-cmd.filetype("plugin indent on")                   -- Enable filetype detection, plugins, and indentation
-cmd.colorscheme("everforest")                      -- turn on preferred colorscheme by default
+
+cmd.filetype("plugin indent on") -- Enable filetype detection, plugins, and indentation
+cmd.colorscheme("everforest")    -- turn on preferred colorscheme by default
