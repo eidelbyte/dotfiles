@@ -10,7 +10,7 @@
       "src": "https://github.com/neanias/everforest-nvim"
     },
     "fzf-lua": {
-      "rev": "cfc085749d9232373fc6d8cf3a964c5601a7816e",
+      "rev": "b56cd2ffbce57bfd9133a645bd02cd86895a7e3f",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "gitsigns.nvim": {
@@ -22,7 +22,7 @@
       "src": "https://github.com/mason-org/mason.nvim"
     },
     "neo-tree.nvim": {
-      "rev": "f3df514fff2bdd4318127c40470984137f87b62e",
+      "rev": "ba6871d15528e36657d19a3112cc1697c59da19a",
       "src": "https://github.com/nvim-neo-tree/neo-tree.nvim",
       "version": "3.0.0 - 4.0.0"
     },

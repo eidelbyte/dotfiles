@@ -18,8 +18,8 @@ keymap("n", "N", "Nzzzv")                                          -- Center pre
 keymap("n", "<Leader>q", "<C-w>q", s)                              -- Close the current buffer, or window by index
 keymap("n", "<Leader>Q", "<Cmd>windo bd<CR>", s)                   -- Quit Neovim
 keymap("n", "<Leader>n", "<Cmd>tabnew<CR>", s)                     -- Open a new tab
-keymap("n", "<Leader><Tab>", "<Cmd>tabnext<CR>", s)                -- Cycle to the next tab
-keymap("n", "<Leader><S-Tab>", "<Cmd>tabprev<CR>", s)              -- Cycle to the prev tab (TODO: FIXME)
+keymap("n", "<Tab>", "<Cmd>tabnext<CR>", s)                        -- Cycle to the next tab
+keymap("n", "<S-Tab>", "<Cmd>tabprev<CR>", s)                      -- Cycle to the prev tab
 keymap("n", "<Leader>-", "<Cmd>new<CR><Cmd>FzfLua files<CR>", s)   -- Split the window horizontally
 keymap("n", "<Leader>\\", "<Cmd>vnew<CR><Cmd>FzfLua files<CR>", s) -- Split the window vertically
 keymap("n", "<Leader><Space>", "<Cmd>w!<CR>", s)                   -- Save the current buffer (Starts format hook using LSP)
