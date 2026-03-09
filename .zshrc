@@ -46,6 +46,8 @@ zstyle ':vcs_info:*:*' check-for-changes true
 PROMPT=$'%F{2}%{\x1b[3m%}%n%{\x1b[0m%}%f@%F{4}%m%f %~ λ '
 RPROMPT='%F{8}⎇ $vcs_info_msg_0_%f'
 
+source path.sh
+
 alias v='nvim'
 
 alias ls="ls --color"
